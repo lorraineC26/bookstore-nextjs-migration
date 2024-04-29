@@ -14,38 +14,47 @@ This project was just migrated from my another repository created with `create-r
 - The main page displays a list of books, each showing the book name, price, category, a delete button, and an image cover.
 - Users can add a new book by clicking the `Add Book button` at the top.
 
-<img src="https://github.com/lorraineC26/bookstore-nextjs-migration/blob/main/public/02-main-page.png?raw=true" alt="Book List" width="400px" style="display: block; margin: 0 auto;">
- 
+<p align="center">
+  <img src="https://github.com/lorraineC26/bookstore-nextjs-migration/blob/main/public/02-main-page.png?raw=true" alt="Book List" width="400px" style="display: block; margin: 0 auto;">
+</p>
 
 ### 2. Add Book
 - Clicking the `Add Book button` opens a `popup page` allowing users to add a new book.
 - Users can input the book's name, price, category, description; a default image cover is provided.
 - After submition, the new book are updated in the main page
 
-<img src="https://github.com/lorraineC26/bookstore-nextjs-migration/blob/main/public/05-add-new-book.png?raw=true" alt="add new book" width="400px" style="display: block; margin: 0 auto;">
-<img src="https://github.com/lorraineC26/bookstore-nextjs-migration/blob/main/public/06-new-book.png?raw=true" alt="updated main page" width="400px" style="display: block; margin: 0 auto;">
+<p align="center">
+  <img src="https://github.com/lorraineC26/bookstore-nextjs-migration/blob/main/public/05-add-new-book.png?raw=true" alt="add new book" width="400px" style="display: block; margin: 0 auto;">
+</p>
 
+<p align="center">
+  <img src="https://github.com/lorraineC26/bookstore-nextjs-migration/blob/main/public/06-new-book.png?raw=true" alt="updated main page" width="400px" style="display: block; margin: 0 auto;">
+</p>
 
 ### 3. Modify Book Details
 - Clicking on a book in the list opens a popup page where users can modify the book's details.
 - Users can edit the book's name, price, category and description.
 - After modification, the book details are updated in the main page.
 
-<img src="https://github.com/lorraineC26/bookstore-nextjs-migration/blob/main/public/03-book-details-popup.png?raw=true" alt="edit book" width="400px" style="display: block; margin: 0 auto;">
-
+<p align="center">
+  <img src="https://github.com/lorraineC26/bookstore-nextjs-migration/blob/main/public/03-book-details-popup.png?raw=true" alt="edit book" width="400px" style="display: block; margin: 0 auto;">
+</p>
 
 ### 4. Delete Book
 - Each book entry in the list has a delete button.
 - Clicking the delete button removes the book from the main page.
 - An "empty message" wil show up when there all books are deleted.
 
-<img src="https://github.com/lorraineC26/bookstore-nextjs-migration/blob/main/public/01-empty-message.png?raw=true" alt="empty booklist msg" width="400px" style="display: block; margin: 0 auto;">
-
+<p align="center">
+  <img src="https://github.com/lorraineC26/bookstore-nextjs-migration/blob/main/public/01-empty-message.png?raw=true" alt="empty booklist msg" width="400px" style="display: block; margin: 0 auto;">
+</p>
 
 ### Responsive Design
 - The application has a responsive design that adapts to both larger and smaller screens, providing an optimal viewing experience across devices.
 
-<img src="https://github.com/lorraineC26/bookstore-nextjs-migration/blob/main/public/07-responsive-design.png?raw=true" alt="responsive deisgn" width="200px" style="display: block; margin: 0 auto;">
+<p align="center">
+  <img src="https://github.com/lorraineC26/bookstore-nextjs-migration/blob/main/public/07-responsive-design.png?raw=true" alt="responsive deisgn" width="200px" style="display: block; margin: 0 auto;">
+</p>
 
 ## Technologies Used
 - **React**: JavaScript library for building user interfaces.
