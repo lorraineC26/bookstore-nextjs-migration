@@ -49,7 +49,7 @@ This project was just migrated from my another repository created with `create-r
 ### 4. Delete Book
 - Each book entry in the list has a delete button.
 - Clicking the delete button removes the book from the main page.
-- An "empty message" wil show up when all books are deleted.
+- An "empty message" will show up when all books are deleted.
 
 <p align="center">
   <img src="https://github.com/lorraineC26/bookstore-nextjs-migration/blob/main/public/01-empty-message.png?raw=true" alt="empty booklist msg" width="400px" style="display: block; margin: 0 auto;">
