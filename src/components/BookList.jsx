@@ -13,6 +13,7 @@ const BookList = () => {
   const fetchBooks = () =>{dispatch(setBookData(bookData))};
   
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     fetchBooks();
   }, []);
 

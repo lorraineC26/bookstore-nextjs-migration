@@ -13,7 +13,7 @@ const BookListItem = () => {
   const renderList = () => {
     // make sure the map fx only works when books array is not empty
     if (books.length === 0) {
-      return <div className="empty-message">Oops, it's empty!</div>;
+      return <div className="empty-message">Oops, it is empty!</div>;
     } else {
       return books.map((book) => {
         const { id, title, price, category, image } = book;
