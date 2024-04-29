@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# aLittleBookstore
+
+This project is a single-page application developed as a frontend developer test for Blazesoft. It utilizes React with Redux and Hooks, along with Next.js for Server Side Rendering, and SCSS for styling.<br/>
+
+### Project Migration
+This project was just migrated from my another repository created with `create-react-app` to `Next.js` to fulfill the requirement of server-side rendering. <a href="https://github.com/lorraineC26/bookstore">You can check the repo here.</a>
+
+## Features
+
+### 0. Logo Navigation
+- Clicking the logo at the top left corner of the page takes the user back to the top of the page.
+
+### 1. Book List
+- The main page displays a list of books, each showing the book name, price, category, a delete button, and an image cover.
+- Users can add a new book by clicking the `Add Book button` at the top.
+
+<img src="https://github.com/lorraineC26/bookstore-nextjs-migration/blob/main/public/02-main-page.png?raw=true" alt="Book List" width="400px" style="display: block; margin: 0 auto;">
+ 
+
+### 2. Add Book
+- Clicking the `Add Book button` opens a `popup page` allowing users to add a new book.
+- Users can input the book's name, price, category, description; a default image cover is provided.
+- After submition, the new book are updated in the main page
+
+<img src="https://github.com/lorraineC26/bookstore-nextjs-migration/blob/main/public/05-add-new-book.png?raw=true" alt="add new book" width="400px" style="display: block; margin: 0 auto;">
+<img src="https://github.com/lorraineC26/bookstore-nextjs-migration/blob/main/public/06-new-book.png?raw=true" alt="updated main page" width="400px" style="display: block; margin: 0 auto;">
+
+
+### 3. Modify Book Details
+- Clicking on a book in the list opens a popup page where users can modify the book's details.
+- Users can edit the book's name, price, category and description.
+- After modification, the book details are updated in the main page.
+
+<img src="https://github.com/lorraineC26/bookstore-nextjs-migration/blob/main/public/03-book-details-popup.png?raw=true" alt="edit book" width="400px" style="display: block; margin: 0 auto;">
+
+
+### 4. Delete Book
+- Each book entry in the list has a delete button.
+- Clicking the delete button removes the book from the main page.
+- An "empty message" wil show up when there all books are deleted.
+
+<img src="https://github.com/lorraineC26/bookstore-nextjs-migration/blob/main/public/01-empty-message.png?raw=true" alt="empty booklist msg" width="400px" style="display: block; margin: 0 auto;">
+
+
+### Responsive Design
+- The application has a responsive design that adapts to both larger and smaller screens, providing an optimal viewing experience across devices.
+
+<img src="https://github.com/lorraineC26/bookstore-nextjs-migration/blob/main/public/07-responsive-design.png?raw=true" alt="responsive deisgn" width="200px" style="display: block; margin: 0 auto;">
+
+## Technologies Used
+- **React**: JavaScript library for building user interfaces.
+- **Redux**: State management library for managing application state.
+- **Hooks**: React Hooks used for state and side-effect management.
+- **Next.js**: React framework for server-rendered applications.
+- **SCSS**: CSS preprocessor for styling
 
 ## Getting Started
 
-First, run the development server:
+1. Clone this repository to your local machine.
+2. Install dependencies using `npm install`.
+3. Run the development server using `npm run dev`.
+4. Open [http://localhost:3000](http://localhost:3000) to view the application in your browser.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+📧 Feel free to reach out with any questions or feedback! ✨
