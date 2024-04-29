@@ -33,8 +33,8 @@ This project was just migrated from my another repository created with `create-r
   <img src="https://github.com/lorraineC26/bookstore-nextjs-migration/blob/main/public/06-new-book.png?raw=true" alt="updated main page" width="400px" style="display: block; margin: 0 auto;">
 </p>
 
-### 3. Modify Book Details
-- Clicking on a book in the list opens a popup page where users can modify the book's details.
+### 3. Access and Modify Book Details
+- Clicking on a book in the list opens a popup page where users can see more info about this book and modify the book's details.
 - Users can edit the book's name, price, category and description.
 - After modification, the book details are updated in the main page.
 
