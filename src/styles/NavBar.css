@@ -1,0 +1,36 @@
+.nav-bar {
+  box-shadow: 0 4px 6px -6px #222;
+  height: 62px;
+  width: 100%;
+  padding-bottom: 10px;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  background-color: #fef6e4;
+}
+
+.nav-bar-contents {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  font-weight: 500;
+  font-size: 1.4rem;
+  height: 100%;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.nav-bar-contents .link img {
+  width: 9rem;
+  height: auto;
+}
+.nav-bar-contents .add-new-book {
+  color: #111;
+  text-decoration: none;
+  background-color: #f3d2c1;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  box-shadow: 0 4px 6px -6px #222;
+}

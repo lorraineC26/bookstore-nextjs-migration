@@ -1,0 +1,140 @@
+.book-details-container {
+  background-color: white;
+  box-shadow: 0 0 0 500vmax rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 56%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  height: max-content;
+  width: 55%;
+  overflow-y: scroll;
+  border-radius: 12px;
+}
+
+.book-details-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.book-details__close-button {
+  background-color: white;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 16px;
+  margin-top: 16px;
+}
+
+.book-details__edit-button {
+  color: #111;
+  background-color: #f3d2c1;
+  border-radius: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-size: 1rem;
+  box-shadow: 0 4px 6px -6px #222;
+  border-color: #f3d2c1;
+  border-style: none;
+  margin-top: 5px;
+}
+
+.book-details-card {
+  margin-left: 36px;
+  margin-top: 8px;
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.book-details-card .book-details-image {
+  max-width: 40%;
+  border-radius: 8px;
+}
+.book-details-card .book-details-info {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-right: 1rem;
+}
+.book-details-card .book-details-info .title {
+  margin-top: 5px;
+  font-weight: 700;
+  margin-left: 8px;
+  font-style: italic;
+  text-align: center;
+}
+.book-details-card .book-details-info .price {
+  font-weight: 300;
+  color: brown;
+}
+.book-details-card .book-details-info .category {
+  color: grey;
+}
+.book-details-card .book-details-info .description {
+  text-align: left;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+
+.edit-form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-bottom: 1rem;
+  padding-right: 1.5rem;
+}
+.edit-form label {
+  font-size: 16px;
+  font-style: italic;
+}
+.edit-form input {
+  font-size: 16px;
+  width: 100%;
+  height: max-content;
+}
+.edit-form textarea {
+  font-size: 16px;
+  width: 22rem;
+  height: 6rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.edit-form .submit {
+  color: #111;
+  background-color: #f3d2c1;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  box-shadow: 0 4px 6px -6px #222;
+  border-color: #f3d2c1;
+  border-style: none;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .book-details-info {
+    font-size: 10px;
+  }
+  .book-details-info .title {
+    font-size: 10px;
+  }
+  .edit-form label {
+    font-size: 12px;
+  }
+  .edit-form input {
+    font-size: 10px;
+  }
+  .edit-form textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    width: 100%;
+  }
+}
