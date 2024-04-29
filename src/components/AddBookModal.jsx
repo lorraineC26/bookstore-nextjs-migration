@@ -5,7 +5,7 @@ import { addBook, closeAddBookModal } from "../redux/actions/bookActions";
 
 import "../styles/AddBookModal.scss";
 import closeSymbol from "@/assests/closeSymbol.svg";
-import defaultCover from "../assests/defaultCover.png"
+import defaultCover from "@/assests/defaultCover.png"
 
 import { v4 as uuidv4 } from "uuid";
 
@@ -30,7 +30,7 @@ const AddBookModal = () => {
       price,
       category,
       description,
-      image: defaultCover,
+      image: "https://www.hachette.co.nz/graphics/CoverNotAvailable.jpg", // use url instead imported image to prevent renderiing broken img on the main page after adding a new book
     };
 
     dispatch(addBook(newBook));

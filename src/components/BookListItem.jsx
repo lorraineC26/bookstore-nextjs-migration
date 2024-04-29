@@ -1,4 +1,6 @@
 import React from "react";
+import Image from "next/image";
+
 import { useSelector, useDispatch } from "react-redux";
 import "../styles/BookListItem.scss";
 
@@ -32,6 +34,8 @@ const BookListItem = () => {
                 onClick={() => handleClickModalOpen(book)}
               >
                 <img src={image} alt={title} />
+
+                {/* <Image src={image} alt={title} width={200} height={200}/> */}
               </div>
 
               <div className="book-info">
