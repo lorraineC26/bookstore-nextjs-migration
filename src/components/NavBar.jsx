@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { useDispatch } from "react-redux";
 
 import { openAddBookModal } from "../redux/actions/bookActions";
@@ -21,12 +22,13 @@ const NavBar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo"/>
+          <Image src={logo} alt="logo" />
         </Link>
 
-        <button className="add-new-book" onClick={()=> handleClickOpen()}>Add Book</button>
+        <button className="add-new-book" onClick={() => handleClickOpen()}>
+          Add Book
+        </button>
       </div>
-
     </nav>
   );
 }

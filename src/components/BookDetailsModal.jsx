@@ -1,4 +1,5 @@
 import {React, useState} from "react";
+import Image from "next/image";
 
 import "../styles/BookDetails.scss";
 import closeSymbol from "../assests/closeSymbol.svg";
@@ -48,7 +49,7 @@ const BookDetailsModal = () => {
     <div className="book-details-container">
       <div className="book-details-buttons">
         <button className="book-details__close-button" onClick={handClickClose}>
-          <img src={closeSymbol} alt="close symbol" />
+          <Image src={closeSymbol} alt="close symbol" />
         </button>
 
         {!isEditOn && (

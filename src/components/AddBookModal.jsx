@@ -1,4 +1,5 @@
 import { React, useState } from "react";
+import Image from "next/image";
 import { useDispatch } from "react-redux";
 import { addBook, closeAddBookModal } from "../redux/actions/bookActions";
 
@@ -49,13 +50,13 @@ const AddBookModal = () => {
   return (
     <div className="add-book-modal">
       <button className="book-details__close-button" onClick={handleClickClose}>
-        <img src={closeSymbol} alt="close symbol" />
+        <Image src={closeSymbol} alt="close symbol" />
       </button>
 
       <div className="book-details-card">
         <h2>Add a New Book</h2>
 
-        <img
+        <Image
           src={defaultCover}
           alt="defalut cover"
           className="book-details-image"
