@@ -5,7 +5,7 @@ This project is a single-page application developed as a frontend developer test
 It is deployed and accessible at: [https://bookstore-nextjs-migration.vercel.app/](https://bookstore-nextjs-migration.vercel.app/).<br/>
 
 ### Project Migration
-This project was just migrated from my another repository created with `create-react-app` to `Next.js` to fulfill the requirement of server-side rendering. <a href="https://github.com/lorraineC26/bookstore">You can check the repo here.</a>
+This project was just migrated from my another repository created with `create-react-app` to `Next.js` to fulfill the requirement of server-side rendering. <a href="https://github.com/lorraineC26/bookstore">You can check the previous repo here.</a>
 
 ## Features
 
