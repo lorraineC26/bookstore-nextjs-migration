@@ -42,6 +42,10 @@ This project was just migrated from my another repository created with `create-r
   <img src="https://github.com/lorraineC26/bookstore-nextjs-migration/blob/main/public/03-book-details-popup.png?raw=true" alt="edit book" width="400px" style="display: block; margin: 0 auto;">
 </p>
 
+<p align="center">
+  <img src="https://github.com/lorraineC26/bookstore-nextjs-migration/blob/main/public/04-book-details-edit.png?raw=true" alt="edit book" width="400px" style="display: block; margin: 0 auto;">
+</p>
+
 ### 4. Delete Book
 - Each book entry in the list has a delete button.
 - Clicking the delete button removes the book from the main page.
